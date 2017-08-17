@@ -364,7 +364,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_hideable=0x7f01011e;
+        public static final int behavior_hideable=0x7f010129;
         /**  The amount that the scrolling view should overlap the bottom of any AppBarLayout 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -375,7 +375,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_overlapTop=0x7f01010d;
+        public static final int behavior_overlapTop=0x7f010118;
         /**  The height of the bottom sheet when it is collapsed. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -386,7 +386,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behavior_peekHeight=0x7f01011d;
+        public static final int behavior_peekHeight=0x7f010128;
         /**  The width of the border around the FAB. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -397,7 +397,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int borderWidth=0x7f0100e0;
+        public static final int borderWidth=0x7f0100eb;
         /**  Style for buttons without an explicit border, often used in groups. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -407,12 +407,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetDialogTheme=0x7f01011f;
+        public static final int bottomSheetDialogTheme=0x7f01012a;
         /**  Style to use for modal bottom sheets in this theme. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bottomSheetStyle=0x7f010120;
+        public static final int bottomSheetStyle=0x7f01012b;
         /**  Style for buttons within button bars 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -481,67 +481,6 @@ containing a value of this type.
 </table>
          */
         public static final int buttonTintMode=0x7f0100c0;
-        /**  Background color for CardView. 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardBackgroundColor=0x7f0100d2;
-        /**  Corner radius for CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardCornerRadius=0x7f0100d3;
-        /**  Elevation for CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardElevation=0x7f0100d4;
-        /**  Maximum Elevation for CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardMaxElevation=0x7f0100d5;
-        /**  Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardPreventCornerOverlap=0x7f0100d7;
-        /**  Add padding in API v21+ as well to have the same measurements with previous versions. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cardUseCompatPadding=0x7f0100d6;
         /**  Default Checkbox style. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -594,13 +533,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td> Push title to the end of its container, not changing its size. </td></tr>
 </table>
          */
-        public static final int collapsedTitleGravity=0x7f010118;
+        public static final int collapsedTitleGravity=0x7f010123;
         /**  The text appearance of the CollapsingToolbarLayouts title when it is fully
              'collapsed' 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int collapsedTitleTextAppearance=0x7f010114;
+        public static final int collapsedTitleTextAppearance=0x7f01011f;
         /**  The drawing color for the bars 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -747,61 +686,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int contentInsetStart=0x7f010081;
-        /**  Inner padding between the edges of the Card and children of the CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentPadding=0x7f0100d8;
-        /**  Inner padding between the bottom edge of the Card and children of the CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentPaddingBottom=0x7f0100dc;
-        /**  Inner padding between the left edge of the Card and children of the CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentPaddingLeft=0x7f0100d9;
-        /**  Inner padding between the right edge of the Card and children of the CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentPaddingRight=0x7f0100da;
-        /**  Inner padding between the top edge of the Card and children of the CardView. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int contentPaddingTop=0x7f0100db;
         /**  The drawable to use as a scrim on top of the CollapsingToolbarLayouts content when
              it has been scrolled sufficiently off screen. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -812,7 +696,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int contentScrim=0x7f010115;
+        public static final int contentScrim=0x7f010120;
         /**  The background used by framework controls. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -826,7 +710,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterEnabled=0x7f010104;
+        public static final int counterEnabled=0x7f01010f;
         /**  The max length to display in the character counter 
          <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
@@ -835,17 +719,17 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int counterMaxLength=0x7f010105;
+        public static final int counterMaxLength=0x7f010110;
         /**  TextAppearance of the character counter when the text is longer than the max 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterOverflowTextAppearance=0x7f010107;
+        public static final int counterOverflowTextAppearance=0x7f010112;
         /**  TextAppearance of the character counter 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int counterTextAppearance=0x7f010106;
+        public static final int counterTextAppearance=0x7f010111;
         /**  Specifies a layout for custom navigation. Overrides navigationMode. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -987,12 +871,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int errorEnabled=0x7f010102;
+        public static final int errorEnabled=0x7f01010d;
         /**  TextAppearance of any error message displayed 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int errorTextAppearance=0x7f010103;
+        public static final int errorTextAppearance=0x7f01010e;
         /**  The drawable to show in the button for expanding the activities overflow popup.
              <strong>Note:</strong> Clients would like to set this drawable
              as a clue about the action the chosen activity will perform. For
@@ -1012,7 +896,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expanded=0x7f01010a;
+        public static final int expanded=0x7f010115;
         /**  Specifies how the title should be positioned when expanded. 
          <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
@@ -1032,7 +916,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td> Push title to the end of its container, not changing its size. </td></tr>
 </table>
          */
-        public static final int expandedTitleGravity=0x7f010119;
+        public static final int expandedTitleGravity=0x7f010124;
         /**   Specifies extra space on the start, top, end and bottom
               sides of the the expanded title text. Margin values should be positive. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1044,7 +928,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMargin=0x7f01010e;
+        public static final int expandedTitleMargin=0x7f010119;
         /**   Specifies extra space on the bottom side of the the expanded title text.
               Margin values should be positive. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1056,7 +940,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginBottom=0x7f010112;
+        public static final int expandedTitleMarginBottom=0x7f01011d;
         /**   Specifies extra space on the end side of the the expanded title text.
               Margin values should be positive. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1068,7 +952,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginEnd=0x7f010111;
+        public static final int expandedTitleMarginEnd=0x7f01011c;
         /**   Specifies extra space on the start side of the the expanded title text.
               Margin values should be positive. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1080,7 +964,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginStart=0x7f01010f;
+        public static final int expandedTitleMarginStart=0x7f01011a;
         /**   Specifies extra space on the top side of the the expanded title text.
               Margin values should be positive. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1092,13 +976,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int expandedTitleMarginTop=0x7f010110;
+        public static final int expandedTitleMarginTop=0x7f01011b;
         /**  The text appearance of the CollapsingToolbarLayout's title when it is fully
              'expanded' 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int expandedTitleTextAppearance=0x7f010113;
+        public static final int expandedTitleTextAppearance=0x7f01011e;
         /**  Size for the FAB. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -1110,7 +994,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int fabSize=0x7f0100de;
+        public static final int fabSize=0x7f0100e9;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1118,7 +1002,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int foregroundInsidePadding=0x7f0100e9;
+        public static final int foregroundInsidePadding=0x7f0100f4;
         /**  The max gap between the bars when they are parallel to each other 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1139,7 +1023,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int headerLayout=0x7f0100e8;
+        public static final int headerLayout=0x7f0100f3;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1167,7 +1051,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintAnimationEnabled=0x7f010108;
+        public static final int hintAnimationEnabled=0x7f010113;
         /**  Whether the layout's floating label functionality is enabled 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1176,11 +1060,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int hintEnabled=0x7f010101;
+        public static final int hintEnabled=0x7f01010c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int hintTextAppearance=0x7f010100;
+        public static final int hintTextAppearance=0x7f01010b;
         /**  Specifies a drawable to use for the 'home as up' indicator. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1230,7 +1114,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int insetForeground=0x7f0100e2;
+        public static final int insetForeground=0x7f0100ed;
         /**  Specifies whether the theme is light, otherwise it is dark. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1243,7 +1127,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemBackground=0x7f0100e6;
+        public static final int itemBackground=0x7f0100f1;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1252,7 +1136,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemIconTint=0x7f0100e4;
+        public static final int itemIconTint=0x7f0100ef;
         /**  Specifies padding that should be applied to the left and right sides of
              system-provided items in the bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
@@ -1268,7 +1152,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int itemTextAppearance=0x7f0100e7;
+        public static final int itemTextAppearance=0x7f0100f2;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -1277,7 +1161,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int itemTextColor=0x7f0100e5;
+        public static final int itemTextColor=0x7f0100f0;
         /**  A reference to an array of integers representing the
              locations of horizontal keylines in dp from the starting edge.
              Child views can refer to these keylines for alignment using
@@ -1286,34 +1170,17 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int keylines=0x7f0100fa;
+        public static final int keylines=0x7f010105;
         /**  The layout to use for the search view. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int layout=0x7f010092;
-        /**  Class name of the Layout Manager to be used.
-        <p/>
-        The class must extend android.support.v7.widget.RecyclerView$LayoutManager
-        and have either a default constructor or constructor with the signature
-        (android.content.Context, android.util.AttributeSet, int, int).
-         <p/>
-         If the name starts with a '.', application package is prefixed.
-         Else, if the name contains a '.', the classname is assumed to be a full class name.
-         Else, the recycler view package name (android.support.v7.widget) is prefixed. 
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int layoutManager=0x7f0100ce;
         /**  The id of an anchor view that this view should position relative to. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_anchor=0x7f0100fd;
+        public static final int layout_anchor=0x7f010108;
         /**  Specifies how an object should position relative to an anchor, on both the X and Y axes,
              within its parent's bounds.  
          <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -1344,7 +1211,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>end</code></td><td>0x00800005</td><td> Push object to the end of its container, not changing its size. </td></tr>
 </table>
          */
-        public static final int layout_anchorGravity=0x7f0100ff;
+        public static final int layout_anchorGravity=0x7f01010a;
         /**  The class name of a Behavior class defining special runtime behavior
              for this child view. 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
@@ -1354,7 +1221,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_behavior=0x7f0100fc;
+        public static final int layout_behavior=0x7f010107;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1367,7 +1234,7 @@ containing a value of this type.
                  layout_collapseParallaxMultiplier attribute to change the multiplier. </td></tr>
 </table>
          */
-        public static final int layout_collapseMode=0x7f01011b;
+        public static final int layout_collapseMode=0x7f010126;
         /**  The multiplier used when layout_collapseMode is set to 'parallax'. The value should
              be between 0.0 and 1.0. 
          <p>Must be a floating point value, such as "<code>1.2</code>".
@@ -1377,7 +1244,275 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_collapseParallaxMultiplier=0x7f01011c;
+        public static final int layout_collapseParallaxMultiplier=0x7f010127;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintBaseline_creator=0x7f0100e4;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintBaseline_toBaselineOf=0x7f0100d9;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintBottom_creator=0x7f0100e3;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintBottom_toBottomOf=0x7f0100d8;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintBottom_toTopOf=0x7f0100d7;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintDimensionRatio=0x7f0100e5;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintEnd_toEndOf=0x7f0100dd;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintEnd_toStartOf=0x7f0100dc;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintGuide_begin=0x7f0100ce;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintGuide_end=0x7f0100cf;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintGuide_percent=0x7f0100d0;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintHorizontal_bias=0x7f0100de;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintLeft_creator=0x7f0100e0;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintLeft_toLeftOf=0x7f0100d1;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintLeft_toRightOf=0x7f0100d2;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintRight_creator=0x7f0100e2;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintRight_toLeftOf=0x7f0100d3;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintRight_toRightOf=0x7f0100d4;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintStart_toEndOf=0x7f0100da;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintStart_toStartOf=0x7f0100db;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintTop_creator=0x7f0100e1;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintTop_toBottomOf=0x7f0100d6;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+         */
+        public static final int layout_constraintTop_toTopOf=0x7f0100d5;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_constraintVertical_bias=0x7f0100df;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_editor_absoluteX=0x7f0100e6;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int layout_editor_absoluteY=0x7f0100e7;
         /**  The index of a keyline this view should position relative to.
              android:layout_gravity will affect how the view aligns to the
              specified keyline. 
@@ -1388,7 +1523,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_keyline=0x7f0100fe;
+        public static final int layout_keyline=0x7f010109;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1411,13 +1546,13 @@ containing a value of this type.
                  snapped and scrolled to it's closest edge. </td></tr>
 </table>
          */
-        public static final int layout_scrollFlags=0x7f01010b;
+        public static final int layout_scrollFlags=0x7f010116;
         /**  An interpolator to use when scrolling this View. Only takes effect when View
              is scrollable. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int layout_scrollInterpolator=0x7f01010c;
+        public static final int layout_scrollInterpolator=0x7f010117;
         /**  Drawable used as a background for selected list items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1519,7 +1654,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int maxActionInlineWidth=0x7f010109;
+        public static final int maxActionInlineWidth=0x7f010114;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1545,7 +1680,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int menu=0x7f0100e3;
+        public static final int menu=0x7f0100ee;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1666,7 +1801,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pressedTranslationZ=0x7f0100df;
+        public static final int pressedTranslationZ=0x7f0100ea;
         /**  Specifies the horizontal padding on either end for an embedded progress bar. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1707,14 +1842,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int ratingBarStyle=0x7f01006b;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int reverseLayout=0x7f0100d0;
         /**  Ripple color for the FAB. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -1724,7 +1851,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rippleColor=0x7f0100dd;
+        public static final int rippleColor=0x7f0100e8;
         /**  Search icon displayed as a text field hint 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1808,14 +1935,6 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int singleChoiceItemLayout=0x7f0100cb;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int spanCount=0x7f0100cf;
         /**  Whether bars should rotate or not during transition 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1844,14 +1963,6 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int splitTrack=0x7f0100c6;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int stackFromEnd=0x7f0100d1;
         /**  State identifier indicating the popup will be above the anchor. 
          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
@@ -1865,7 +1976,7 @@ containing a value of this type.
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int statusBarBackground=0x7f0100fb;
+        public static final int statusBarBackground=0x7f010106;
         /**  The drawable to use as a scrim for the status bar content when the
              CollapsingToolbarLayout has been scrolled sufficiently off screen. Only works on
              Lollipop with the correct setup. 
@@ -1877,7 +1988,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int statusBarScrim=0x7f010116;
+        public static final int statusBarScrim=0x7f010121;
         /**  Background for the section containing the action (e.g. voice search) 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -1952,7 +2063,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabBackground=0x7f0100ed;
+        public static final int tabBackground=0x7f0100f8;
         /**  Position in the Y axis from the starting edge that tabs should be positioned from. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1963,7 +2074,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabContentStart=0x7f0100ec;
+        public static final int tabContentStart=0x7f0100f7;
         /**  Gravity constant for tabs. 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -1975,7 +2086,7 @@ containing a value of this type.
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabGravity=0x7f0100ef;
+        public static final int tabGravity=0x7f0100fa;
         /**  Color of the indicator used to show the currently selected tab. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -1985,7 +2096,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorColor=0x7f0100ea;
+        public static final int tabIndicatorColor=0x7f0100f5;
         /**  Height of the indicator used to show the currently selected tab. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -1996,7 +2107,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabIndicatorHeight=0x7f0100eb;
+        public static final int tabIndicatorHeight=0x7f0100f6;
         /**  The maximum width for tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2007,7 +2118,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMaxWidth=0x7f0100f1;
+        public static final int tabMaxWidth=0x7f0100fc;
         /**  The minimum width for tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2018,7 +2129,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabMinWidth=0x7f0100f0;
+        public static final int tabMinWidth=0x7f0100fb;
         /**  The behavior mode for the Tabs in this layout 
          <p>Must be one of the following constant values.</p>
 <table>
@@ -2030,7 +2141,7 @@ containing a value of this type.
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int tabMode=0x7f0100ee;
+        public static final int tabMode=0x7f0100f9;
         /**  The preferred padding along all edges of tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2041,7 +2152,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPadding=0x7f0100f9;
+        public static final int tabPadding=0x7f010104;
         /**  The preferred padding along the bottom edge of tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2052,7 +2163,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingBottom=0x7f0100f8;
+        public static final int tabPaddingBottom=0x7f010103;
         /**  The preferred padding along the end edge of tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2063,7 +2174,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingEnd=0x7f0100f7;
+        public static final int tabPaddingEnd=0x7f010102;
         /**  The preferred padding along the start edge of tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2074,7 +2185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingStart=0x7f0100f5;
+        public static final int tabPaddingStart=0x7f010100;
         /**  The preferred padding along the top edge of tabs. 
          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
@@ -2085,7 +2196,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabPaddingTop=0x7f0100f6;
+        public static final int tabPaddingTop=0x7f010101;
         /**  The text color to be applied to the currently selected tab. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -2095,12 +2206,12 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabSelectedTextColor=0x7f0100f4;
+        public static final int tabSelectedTextColor=0x7f0100ff;
         /**  A reference to a TextAppearance style to be applied to tabs. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int tabTextAppearance=0x7f0100f2;
+        public static final int tabTextAppearance=0x7f0100fd;
         /**  The default text color to be applied to tabs. 
          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
@@ -2110,7 +2221,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int tabTextColor=0x7f0100f3;
+        public static final int tabTextColor=0x7f0100fe;
         /**  Present the text in ALL CAPS. This may use a small-caps form when available. 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -2163,7 +2274,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textColorError=0x7f010121;
+        public static final int textColorError=0x7f01012c;
         /**  Text color for urls in search suggestions, used by things like global search 
          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -2214,7 +2325,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titleEnabled=0x7f01011a;
+        public static final int titleEnabled=0x7f010125;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -2290,7 +2401,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int toolbarId=0x7f010117;
+        public static final int toolbarId=0x7f010122;
         /**  Default Toolar NavigationButtonStyle 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -2314,7 +2425,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useCompatPadding=0x7f0100e1;
+        public static final int useCompatPadding=0x7f0100ec;
         /**  Voice button icon 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -2484,20 +2595,20 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060003;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f07004b;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f07004c;
-        public static final int abc_color_highlight_material=0x7f07004d;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f070047;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f070048;
+        public static final int abc_color_highlight_material=0x7f070049;
         public static final int abc_input_method_navigation_guard=0x7f070003;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f07004e;
-        public static final int abc_primary_text_disable_only_material_light=0x7f07004f;
-        public static final int abc_primary_text_material_dark=0x7f070050;
-        public static final int abc_primary_text_material_light=0x7f070051;
-        public static final int abc_search_url_text=0x7f070052;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f07004a;
+        public static final int abc_primary_text_disable_only_material_light=0x7f07004b;
+        public static final int abc_primary_text_material_dark=0x7f07004c;
+        public static final int abc_primary_text_material_light=0x7f07004d;
+        public static final int abc_search_url_text=0x7f07004e;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
-        public static final int abc_secondary_text_material_dark=0x7f070053;
-        public static final int abc_secondary_text_material_light=0x7f070054;
+        public static final int abc_secondary_text_material_dark=0x7f07004f;
+        public static final int abc_secondary_text_material_light=0x7f070050;
         public static final int accent_material_dark=0x7f070011;
         public static final int accent_material_light=0x7f070010;
         public static final int background_floating_material_dark=0x7f070008;
@@ -2516,45 +2627,33 @@ containing a value of this type.
         public static final int bright_foreground_material_light=0x7f070019;
         public static final int button_material_dark=0x7f070012;
         public static final int button_material_light=0x7f070013;
-        /**  Background color for dark CardView. 
-         */
-        public static final int cardview_dark_background=0x7f07003b;
-        /**  Background color for light CardView. 
-         */
-        public static final int cardview_light_background=0x7f07003a;
-        /**  Shadow color for the furthest pixels around CardView. 
-         */
-        public static final int cardview_shadow_end_color=0x7f07003d;
-        /**  Shadow color for the first pixels around CardView. 
-         */
-        public static final int cardview_shadow_start_color=0x7f07003c;
-        public static final int colorAccent=0x7f07004a;
-        public static final int colorPrimary=0x7f070048;
-        public static final int colorPrimaryDark=0x7f070049;
+        public static final int colorAccent=0x7f070046;
+        public static final int colorPrimary=0x7f070044;
+        public static final int colorPrimaryDark=0x7f070045;
         /**  Shadow color for the furthest pixels of a shadow 
          */
-        public static final int design_fab_shadow_end_color=0x7f070044;
+        public static final int design_fab_shadow_end_color=0x7f070040;
         /**  Shadow color for the middle pixels of a shadow 
          */
-        public static final int design_fab_shadow_mid_color=0x7f070043;
+        public static final int design_fab_shadow_mid_color=0x7f07003f;
         /**  Shadow color for the first pixels of a shadow 
          */
-        public static final int design_fab_shadow_start_color=0x7f070042;
+        public static final int design_fab_shadow_start_color=0x7f07003e;
         /**  Color for the bottom inner pixels in the stroke: 4% black (these are multiplied) 
          */
-        public static final int design_fab_stroke_end_inner_color=0x7f070041;
+        public static final int design_fab_stroke_end_inner_color=0x7f07003d;
         /**  Color for the bottom outer pixels in the stroke: 6% black (these are multiplied) 
          */
-        public static final int design_fab_stroke_end_outer_color=0x7f070040;
+        public static final int design_fab_stroke_end_outer_color=0x7f07003c;
         /**  Color for the top inner pixels in the stroke: 10% white (these are multiplied) 
          */
-        public static final int design_fab_stroke_top_inner_color=0x7f07003f;
+        public static final int design_fab_stroke_top_inner_color=0x7f07003b;
         /**  Color for the top outer pixels in the stroke: 18% white (these are multiplied) 
          */
-        public static final int design_fab_stroke_top_outer_color=0x7f07003e;
-        public static final int design_snackbar_background_color=0x7f070047;
-        public static final int design_textinput_error_color_dark=0x7f070046;
-        public static final int design_textinput_error_color_light=0x7f070045;
+        public static final int design_fab_stroke_top_outer_color=0x7f07003a;
+        public static final int design_snackbar_background_color=0x7f070043;
+        public static final int design_textinput_error_color_dark=0x7f070042;
+        public static final int design_textinput_error_color_light=0x7f070041;
         public static final int dim_foreground_disabled_material_dark=0x7f070020;
         public static final int dim_foreground_disabled_material_light=0x7f070021;
         public static final int dim_foreground_material_dark=0x7f07001e;
@@ -2613,8 +2712,8 @@ containing a value of this type.
         public static final int secondary_text_disabled_material_light=0x7f07002b;
         public static final int switch_thumb_disabled_material_dark=0x7f070016;
         public static final int switch_thumb_disabled_material_light=0x7f070017;
-        public static final int switch_thumb_material_dark=0x7f070055;
-        public static final int switch_thumb_material_light=0x7f070056;
+        public static final int switch_thumb_material_dark=0x7f070051;
+        public static final int switch_thumb_material_light=0x7f070052;
         public static final int switch_thumb_normal_material_dark=0x7f070014;
         public static final int switch_thumb_normal_material_light=0x7f070015;
     }
@@ -2788,68 +2887,52 @@ containing a value of this type.
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). 
          */
-        public static final int activity_horizontal_margin=0x7f08006e;
-        public static final int activity_vertical_margin=0x7f08006f;
-        /**  Inset shadow for RoundRectDrawableWithShadow. It is used to avoid gaps between the card
-     and the shadow. 
-         */
-        public static final int cardview_compat_inset_shadow=0x7f080050;
-        /**  Elevation value to use for CardViews. Pre-L, it is equal to shadow size. 
-         */
-        public static final int cardview_default_elevation=0x7f08004f;
-        /**  Default radius for CardView corners. 
-         */
-        public static final int cardview_default_radius=0x7f08004e;
-        public static final int design_appbar_elevation=0x7f08006b;
-        public static final int design_bottom_sheet_modal_elevation=0x7f08006c;
-        public static final int design_bottom_sheet_modal_peek_height=0x7f08006d;
-        public static final int design_fab_border_width=0x7f080056;
-        public static final int design_fab_elevation=0x7f080051;
-        public static final int design_fab_image_size=0x7f080053;
-        public static final int design_fab_size_mini=0x7f080055;
-        public static final int design_fab_size_normal=0x7f080054;
-        public static final int design_fab_translation_z_pressed=0x7f080052;
-        public static final int design_navigation_elevation=0x7f080058;
-        public static final int design_navigation_icon_padding=0x7f080059;
-        public static final int design_navigation_icon_size=0x7f08005a;
+        public static final int activity_horizontal_margin=0x7f080068;
+        public static final int activity_vertical_margin=0x7f080069;
+        public static final int design_appbar_elevation=0x7f080065;
+        public static final int design_bottom_sheet_modal_elevation=0x7f080066;
+        public static final int design_bottom_sheet_modal_peek_height=0x7f080067;
+        public static final int design_fab_border_width=0x7f080050;
+        public static final int design_fab_elevation=0x7f08004b;
+        public static final int design_fab_image_size=0x7f08004d;
+        public static final int design_fab_size_mini=0x7f08004f;
+        public static final int design_fab_size_normal=0x7f08004e;
+        public static final int design_fab_translation_z_pressed=0x7f08004c;
+        public static final int design_navigation_elevation=0x7f080052;
+        public static final int design_navigation_icon_padding=0x7f080053;
+        public static final int design_navigation_icon_size=0x7f080054;
         /**  5 * standard increment (56dp) 
  5 * standard increment (64dp on tablets) 
          */
-        public static final int design_navigation_max_width=0x7f080057;
-        public static final int design_navigation_padding_bottom=0x7f08005c;
-        public static final int design_navigation_separator_vertical_padding=0x7f08005b;
+        public static final int design_navigation_max_width=0x7f080051;
+        public static final int design_navigation_padding_bottom=0x7f080056;
+        public static final int design_navigation_separator_vertical_padding=0x7f080055;
         /**  The maximum width for a Snackbar's inline action. If the view is width than this then
          the Snackbar will change to vertical stacking 
          */
-        public static final int design_snackbar_action_inline_max_width=0x7f080069;
-        public static final int design_snackbar_background_corner_radius=0x7f080064;
-        public static final int design_snackbar_elevation=0x7f080063;
+        public static final int design_snackbar_action_inline_max_width=0x7f080063;
+        public static final int design_snackbar_background_corner_radius=0x7f08005e;
+        public static final int design_snackbar_elevation=0x7f08005d;
         /**  Extra spacing between the action and message views 
          */
-        public static final int design_snackbar_extra_spacing_horizontal=0x7f080068;
-        public static final int design_snackbar_max_width=0x7f080062;
-        public static final int design_snackbar_min_width=0x7f080061;
-        public static final int design_snackbar_padding_horizontal=0x7f080065;
-        public static final int design_snackbar_padding_vertical=0x7f080066;
-        public static final int design_snackbar_padding_vertical_2lines=0x7f080067;
-        public static final int design_snackbar_text_size=0x7f08006a;
-        public static final int design_tab_max_width=0x7f08005e;
-        public static final int design_tab_scrollable_min_width=0x7f08005d;
-        public static final int design_tab_text_size=0x7f08005f;
-        public static final int design_tab_text_size_2line=0x7f080060;
+        public static final int design_snackbar_extra_spacing_horizontal=0x7f080062;
+        public static final int design_snackbar_max_width=0x7f08005c;
+        public static final int design_snackbar_min_width=0x7f08005b;
+        public static final int design_snackbar_padding_horizontal=0x7f08005f;
+        public static final int design_snackbar_padding_vertical=0x7f080060;
+        public static final int design_snackbar_padding_vertical_2lines=0x7f080061;
+        public static final int design_snackbar_text_size=0x7f080064;
+        public static final int design_tab_max_width=0x7f080058;
+        public static final int design_tab_scrollable_min_width=0x7f080057;
+        public static final int design_tab_text_size=0x7f080059;
+        public static final int design_tab_text_size_2line=0x7f08005a;
         public static final int disabled_alpha_material_dark=0x7f080001;
         public static final int disabled_alpha_material_light=0x7f080000;
-        public static final int fab_margin=0x7f080071;
+        public static final int fab_margin=0x7f08006b;
         public static final int highlight_alpha_material_colored=0x7f080004;
         public static final int highlight_alpha_material_dark=0x7f080003;
         public static final int highlight_alpha_material_light=0x7f080002;
-        /**  The max amount of scroll ItemTouchHelper will trigger if dragged view is out of
-    RecyclerView's bounds.
-         */
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f08004b;
-        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f08004d;
-        public static final int item_touch_helper_swipe_escape_velocity=0x7f08004c;
-        public static final int list_item_padding=0x7f080070;
+        public static final int list_item_padding=0x7f08006a;
         /**  The width of the big icons in notifications. 
          */
         public static final int notification_large_icon_height=0x7f080026;
@@ -2931,7 +3014,7 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
         public static final int abc_textfield_search_material=0x7f020044;
-        public static final int completedTaskBackground=0x7f020057;
+        public static final int completedTaskBackground=0x7f020056;
         public static final int design_fab_background=0x7f020045;
         public static final int design_snackbar_background=0x7f020046;
         public static final int ic_add=0x7f020047;
@@ -2940,17 +3023,16 @@ containing a value of this type.
         public static final int ic_done=0x7f02004a;
         public static final int ic_edit=0x7f02004b;
         public static final int ic_filter_list=0x7f02004c;
-        public static final int ic_launcher=0x7f02004d;
-        public static final int ic_list=0x7f02004e;
-        public static final int ic_menu=0x7f02004f;
-        public static final int ic_statistics=0x7f020050;
-        public static final int ic_statistics_100dp=0x7f020051;
-        public static final int ic_statistics_24dp=0x7f020052;
-        public static final int ic_verified_user_24dp=0x7f020053;
-        public static final int list_completed_touch_feedback=0x7f020054;
-        public static final int notification_template_icon_bg=0x7f020056;
-        public static final int touchFeedback=0x7f020058;
-        public static final int touch_feedback=0x7f020055;
+        public static final int ic_list=0x7f02004d;
+        public static final int ic_menu=0x7f02004e;
+        public static final int ic_statistics=0x7f02004f;
+        public static final int ic_statistics_100dp=0x7f020050;
+        public static final int ic_statistics_24dp=0x7f020051;
+        public static final int ic_verified_user_24dp=0x7f020052;
+        public static final int list_completed_touch_feedback=0x7f020053;
+        public static final int notification_template_icon_bg=0x7f020055;
+        public static final int touchFeedback=0x7f020057;
+        public static final int touch_feedback=0x7f020054;
     }
     public static final class id {
         public static final int action0=0x7f0a0079;
@@ -2974,8 +3056,8 @@ containing a value of this type.
         public static final int add_task_title=0x7f0a006e;
         public static final int alertTitle=0x7f0a0049;
         public static final int all=0x7f0a0099;
-        public static final int always=0x7f0a001b;
-        public static final int beginning=0x7f0a0020;
+        public static final int always=0x7f0a001a;
+        public static final int beginning=0x7f0a001f;
         public static final int bottom=0x7f0a0028;
         public static final int buttonPanel=0x7f0a0044;
         public static final int cancel_action=0x7f0a007a;
@@ -2986,7 +3068,7 @@ containing a value of this type.
         public static final int chronometer=0x7f0a0080;
         public static final int clip_horizontal=0x7f0a002b;
         public static final int clip_vertical=0x7f0a002c;
-        public static final int collapseActionView=0x7f0a001c;
+        public static final int collapseActionView=0x7f0a001b;
         public static final int complete=0x7f0a0088;
         public static final int completed=0x7f0a009b;
         public static final int contentFrame=0x7f0a006c;
@@ -3001,10 +3083,10 @@ containing a value of this type.
         public static final int design_menu_item_action_area_stub=0x7f0a0077;
         public static final int design_menu_item_text=0x7f0a0076;
         public static final int design_navigation_view=0x7f0a0075;
-        public static final int disableHome=0x7f0a000f;
+        public static final int disableHome=0x7f0a000e;
         public static final int drawer_layout=0x7f0a0069;
         public static final int edit_query=0x7f0a005c;
-        public static final int end=0x7f0a0021;
+        public static final int end=0x7f0a0020;
         public static final int end_padder=0x7f0a0085;
         public static final int enterAlways=0x7f0a0033;
         public static final int enterAlwaysCollapsed=0x7f0a0034;
@@ -3020,18 +3102,15 @@ containing a value of this type.
         public static final int filteringLabel=0x7f0a0091;
         public static final int fixed=0x7f0a0024;
         public static final int home=0x7f0a0000;
-        public static final int homeAsUp=0x7f0a0010;
+        public static final int homeAsUp=0x7f0a000f;
         public static final int icon=0x7f0a0042;
-        public static final int ifRoom=0x7f0a001d;
+        public static final int ifRoom=0x7f0a001c;
         public static final int image=0x7f0a003f;
         public static final int info=0x7f0a0084;
-        /**  ItemTouchHelper uses this id to save a View's original elevation. 
-         */
-        public static final int item_touch_helper_previous_elevation=0x7f0a0009;
         public static final int left=0x7f0a002f;
         public static final int line1=0x7f0a007e;
         public static final int line3=0x7f0a0082;
-        public static final int listMode=0x7f0a000c;
+        public static final int listMode=0x7f0a000b;
         public static final int list_item=0x7f0a0041;
         public static final int list_navigation_menu_item=0x7f0a0097;
         public static final int media_actions=0x7f0a007c;
@@ -3039,19 +3118,20 @@ containing a value of this type.
         public static final int menu_delete=0x7f0a009c;
         public static final int menu_filter=0x7f0a009d;
         public static final int menu_refresh=0x7f0a009f;
-        public static final int middle=0x7f0a0022;
+        public static final int middle=0x7f0a0021;
         public static final int mini=0x7f0a0023;
-        public static final int multiply=0x7f0a0016;
+        public static final int multiply=0x7f0a0015;
         public static final int nav_view=0x7f0a0086;
         public static final int navigation_header_container=0x7f0a0074;
-        public static final int never=0x7f0a001e;
+        public static final int never=0x7f0a001d;
         public static final int noTasks=0x7f0a0093;
         public static final int noTasksAdd=0x7f0a0096;
         public static final int noTasksIcon=0x7f0a0094;
         public static final int noTasksMain=0x7f0a0095;
-        public static final int none=0x7f0a0011;
-        public static final int normal=0x7f0a000d;
+        public static final int none=0x7f0a0010;
+        public static final int normal=0x7f0a000c;
         public static final int parallax=0x7f0a0038;
+        public static final int parent=0x7f0a0022;
         public static final int parentPanel=0x7f0a0046;
         public static final int pin=0x7f0a0039;
         public static final int progress_circular=0x7f0a0007;
@@ -3059,7 +3139,7 @@ containing a value of this type.
         public static final int radio=0x7f0a0054;
         public static final int refresh_layout=0x7f0a008e;
         public static final int right=0x7f0a0030;
-        public static final int screen=0x7f0a0017;
+        public static final int screen=0x7f0a0016;
         public static final int scroll=0x7f0a0036;
         public static final int scrollIndicatorDown=0x7f0a004e;
         public static final int scrollIndicatorUp=0x7f0a004b;
@@ -3077,23 +3157,23 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f0a0067;
         public static final int select_dialog_listview=0x7f0a0068;
         public static final int shortcut=0x7f0a0053;
-        public static final int showCustom=0x7f0a0012;
-        public static final int showHome=0x7f0a0013;
-        public static final int showTitle=0x7f0a0014;
+        public static final int showCustom=0x7f0a0011;
+        public static final int showHome=0x7f0a0012;
+        public static final int showTitle=0x7f0a0013;
         public static final int snackbar_action=0x7f0a0073;
         public static final int snackbar_text=0x7f0a0072;
         public static final int snap=0x7f0a0037;
         public static final int spacer=0x7f0a0045;
         public static final int split_action_bar=0x7f0a0004;
-        public static final int src_atop=0x7f0a0018;
-        public static final int src_in=0x7f0a0019;
-        public static final int src_over=0x7f0a001a;
+        public static final int src_atop=0x7f0a0017;
+        public static final int src_in=0x7f0a0018;
+        public static final int src_over=0x7f0a0019;
         public static final int start=0x7f0a0031;
         public static final int statistics=0x7f0a0087;
         public static final int statistics_navigation_menu_item=0x7f0a0098;
         public static final int status_bar_latest_event_content=0x7f0a007b;
         public static final int submit_area=0x7f0a0065;
-        public static final int tabMode=0x7f0a000e;
+        public static final int tabMode=0x7f0a000d;
         public static final int task_detail_complete=0x7f0a008a;
         public static final int task_detail_description=0x7f0a008c;
         public static final int task_detail_title=0x7f0a008b;
@@ -3111,10 +3191,10 @@ containing a value of this type.
         public static final int topPanel=0x7f0a0047;
         public static final int touch_outside=0x7f0a0070;
         public static final int up=0x7f0a0001;
-        public static final int useLogo=0x7f0a0015;
-        public static final int view_offset_helper=0x7f0a000a;
-        public static final int withText=0x7f0a001f;
-        public static final int wrap_content=0x7f0a000b;
+        public static final int useLogo=0x7f0a0014;
+        public static final int view_offset_helper=0x7f0a0009;
+        public static final int withText=0x7f0a001e;
+        public static final int wrap_content=0x7f0a000a;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f090001;
@@ -3291,16 +3371,16 @@ containing a value of this type.
          */
         public static final int abc_toolbar_collapse_description=0x7f0b0004;
         public static final int add_task=0x7f0b0018;
-        public static final int app_name=0x7f0b0014;
+        public static final int app_name=0x7f0b0017;
         /**  The class name to the ScrollingChildBehavior required for AppBarLayout 
          */
-        public static final int appbar_scrolling_view_behavior=0x7f0b0015;
+        public static final int appbar_scrolling_view_behavior=0x7f0b0014;
         /**  The class name to the BottomSheetBehavior 
          */
-        public static final int bottom_sheet_behavior=0x7f0b0016;
+        public static final int bottom_sheet_behavior=0x7f0b0015;
         /**  The text pattern for the character counter 
          */
-        public static final int character_counter_pattern=0x7f0b0017;
+        public static final int character_counter_pattern=0x7f0b0016;
         public static final int completed_tasks_cleared=0x7f0b001d;
         public static final int description_hint=0x7f0b0023;
         public static final int edit_task=0x7f0b0019;
@@ -3346,17 +3426,16 @@ containing a value of this type.
         public static final int AlertDialog_AppCompat_Light=0x7f0c0043;
         public static final int Animation_AppCompat_Dialog=0x7f0c0049;
         public static final int Animation_AppCompat_DropDownUp=0x7f0c004a;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0c0146;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0c0142;
         /**  Base application theme. 
          */
-        public static final int AppTheme=0x7f0c014e;
-        public static final int AppTheme_OverlapSystemBar=0x7f0c014f;
+        public static final int AppTheme=0x7f0c014a;
+        public static final int AppTheme_OverlapSystemBar=0x7f0c014b;
         public static final int Base_AlertDialog_AppCompat=0x7f0c00cc;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0c00cd;
         public static final int Base_Animation_AppCompat_Dialog=0x7f0c00c8;
         public static final int Base_Animation_AppCompat_DropDownUp=0x7f0c00cb;
-        public static final int Base_AppTheme=0x7f0c0150;
-        public static final int Base_CardView=0x7f0c0131;
+        public static final int Base_AppTheme=0x7f0c014c;
         public static final int Base_DialogWindowTitle_AppCompat=0x7f0c00c7;
         public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0c00c6;
         public static final int Base_TextAppearance_AppCompat=0x7f0c00d0;
@@ -3538,13 +3617,7 @@ containing a value of this type.
     
          */
         public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c00ae;
-        public static final int Base_Widget_Design_TabLayout=0x7f0c0139;
-        /**  On older platforms we do not explicitly set a background color and let CardView compute
-         one based on the theme. 
-         */
-        public static final int CardView=0x7f0c0132;
-        public static final int CardView_Dark=0x7f0c0134;
-        public static final int CardView_Light=0x7f0c0133;
+        public static final int Base_Widget_Design_TabLayout=0x7f0c0135;
         public static final int Platform_AppCompat=0x7f0c0109;
         public static final int Platform_AppCompat_Light=0x7f0c010a;
         /**  Overlay themes 
@@ -3617,13 +3690,13 @@ containing a value of this type.
         public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0c002a;
         public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0c0063;
         public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0c0064;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0c0145;
-        public static final int TextAppearance_Design_Counter=0x7f0c013e;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f0c013f;
-        public static final int TextAppearance_Design_Error=0x7f0c013d;
-        public static final int TextAppearance_Design_Hint=0x7f0c013c;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0c0140;
-        public static final int TextAppearance_Design_Tab=0x7f0c013a;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0c0141;
+        public static final int TextAppearance_Design_Counter=0x7f0c013a;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0c013b;
+        public static final int TextAppearance_Design_Error=0x7f0c0139;
+        public static final int TextAppearance_Design_Hint=0x7f0c0138;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0c013c;
+        public static final int TextAppearance_Design_Tab=0x7f0c0136;
         /**  These styles didn't exist on v7. Since we only use the media template in later versions
          (ICS+), just define it here and use the correct references in values/v14 
  Use platform styles 
@@ -3676,12 +3749,12 @@ containing a value of this type.
         public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0c00fc;
         public static final int Theme_AppCompat_Light_NoActionBar=0x7f0c00fa;
         public static final int Theme_AppCompat_NoActionBar=0x7f0c00f9;
-        public static final int Theme_Design=0x7f0c014a;
-        public static final int Theme_Design_BottomSheetDialog=0x7f0c0148;
-        public static final int Theme_Design_Light=0x7f0c014b;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0c0149;
-        public static final int Theme_Design_Light_NoActionBar=0x7f0c014d;
-        public static final int Theme_Design_NoActionBar=0x7f0c014c;
+        public static final int Theme_Design=0x7f0c0146;
+        public static final int Theme_Design_BottomSheetDialog=0x7f0c0144;
+        public static final int Theme_Design_Light=0x7f0c0147;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0c0145;
+        public static final int Theme_Design_Light_NoActionBar=0x7f0c0149;
+        public static final int Theme_Design_NoActionBar=0x7f0c0148;
         public static final int ThemeOverlay_AppCompat=0x7f0c0104;
         /**  Theme overlay that replaces the normal control color, which by default is the same as the
          secondary text color, with the primary text color. 
@@ -3700,7 +3773,7 @@ containing a value of this type.
          the value of colorAccent, colorPrimary and its variants. 
          */
         public static final int ThemeOverlay_AppCompat_Light=0x7f0c0105;
-        public static final int Toolbar=0x7f0c0151;
+        public static final int Toolbar=0x7f0c014d;
         /**  Styles in here can be extended for customisation in your application. Each utilises
          one of the.styles. If Holo themes are available on the current platform version
          they will be used instead of the compat styles. 
@@ -3781,16 +3854,16 @@ containing a value of this type.
          */
         public static final int Widget_AppCompat_Toolbar=0x7f0c0045;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0c0046;
-        public static final int Widget_Design_AppBarLayout=0x7f0c0143;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f0c0147;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0c0142;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0c0144;
-        public static final int Widget_Design_FloatingActionButton=0x7f0c0135;
-        public static final int Widget_Design_NavigationView=0x7f0c0137;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c0136;
-        public static final int Widget_Design_Snackbar=0x7f0c0141;
-        public static final int Widget_Design_TabLayout=0x7f0c0138;
-        public static final int Widget_Design_TextInputLayout=0x7f0c013b;
+        public static final int Widget_Design_AppBarLayout=0x7f0c013f;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f0c0143;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0c013e;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0c0140;
+        public static final int Widget_Design_FloatingActionButton=0x7f0c0131;
+        public static final int Widget_Design_NavigationView=0x7f0c0133;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0c0132;
+        public static final int Widget_Design_Snackbar=0x7f0c013d;
+        public static final int Widget_Design_TabLayout=0x7f0c0134;
+        public static final int Widget_Design_TextInputLayout=0x7f0c0137;
     }
     public static final class styleable {
         /**  ============================================ 
@@ -4577,7 +4650,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #AppBarLayout_expanded
          */
         public static final int[] AppBarLayout = {
-            0x010100d4, 0x7f010085, 0x7f01010a
+            0x010100d4, 0x7f010085, 0x7f010115
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -4633,7 +4706,7 @@ containing a value of this type.
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
          */
         public static final int[] AppBarLayout_LayoutParams = {
-            0x7f01010b, 0x7f01010c
+            0x7f010116, 0x7f010117
         };
         /**
           <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_scrollFlags}
@@ -4724,7 +4797,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #BottomSheetBehavior_Params_behavior_peekHeight
          */
         public static final int[] BottomSheetBehavior_Params = {
-            0x7f01011d, 0x7f01011e
+            0x7f010128, 0x7f010129
         };
         /**
           <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#behavior_hideable}
@@ -4789,257 +4862,6 @@ containing a value of this type.
           @attr name com.example.android.architecture.blueprints.todoapp:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
-        /** Attributes that can be used with a CardView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td> Workaround to read user defined minimum height </td></tr>
-           <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td> Workaround to read user defined minimum width </td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor com.example.android.architecture.blueprints.todoapp:cardBackgroundColor}</code></td><td> Background color for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius com.example.android.architecture.blueprints.todoapp:cardCornerRadius}</code></td><td> Corner radius for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardElevation com.example.android.architecture.blueprints.todoapp:cardElevation}</code></td><td> Elevation for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation com.example.android.architecture.blueprints.todoapp:cardMaxElevation}</code></td><td> Maximum Elevation for CardView.</td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.android.architecture.blueprints.todoapp:cardPreventCornerOverlap}</code></td><td> Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.android.architecture.blueprints.todoapp:cardUseCompatPadding}</code></td><td> Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-           <tr><td><code>{@link #CardView_contentPadding com.example.android.architecture.blueprints.todoapp:contentPadding}</code></td><td> Inner padding between the edges of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom com.example.android.architecture.blueprints.todoapp:contentPaddingBottom}</code></td><td> Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft com.example.android.architecture.blueprints.todoapp:contentPaddingLeft}</code></td><td> Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight com.example.android.architecture.blueprints.todoapp:contentPaddingRight}</code></td><td> Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop com.example.android.architecture.blueprints.todoapp:contentPaddingTop}</code></td><td> Inner padding between the top edge of the Card and children of the CardView.</td></tr>
-           </table>
-           @see #CardView_android_minHeight
-           @see #CardView_android_minWidth
-           @see #CardView_cardBackgroundColor
-           @see #CardView_cardCornerRadius
-           @see #CardView_cardElevation
-           @see #CardView_cardMaxElevation
-           @see #CardView_cardPreventCornerOverlap
-           @see #CardView_cardUseCompatPadding
-           @see #CardView_contentPadding
-           @see #CardView_contentPaddingBottom
-           @see #CardView_contentPaddingLeft
-           @see #CardView_contentPaddingRight
-           @see #CardView_contentPaddingTop
-         */
-        public static final int[] CardView = {
-            0x0101013f, 0x01010140, 0x7f0100d2, 0x7f0100d3,
-            0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7,
-            0x7f0100d8, 0x7f0100d9, 0x7f0100da, 0x7f0100db,
-            0x7f0100dc
-        };
-        /**
-          <p>
-          @attr description
-           Workaround to read user defined minimum height 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#minHeight}.
-          @attr name android:minHeight
-        */
-        public static final int CardView_android_minHeight = 1;
-        /**
-          <p>
-          @attr description
-           Workaround to read user defined minimum width 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#minWidth}.
-          @attr name android:minWidth
-        */
-        public static final int CardView_android_minWidth = 0;
-        /**
-          <p>
-          @attr description
-           Background color for CardView. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardBackgroundColor
-        */
-        public static final int CardView_cardBackgroundColor = 2;
-        /**
-          <p>
-          @attr description
-           Corner radius for CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardCornerRadius
-        */
-        public static final int CardView_cardCornerRadius = 3;
-        /**
-          <p>
-          @attr description
-           Elevation for CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardElevation
-        */
-        public static final int CardView_cardElevation = 4;
-        /**
-          <p>
-          @attr description
-           Maximum Elevation for CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardMaxElevation
-        */
-        public static final int CardView_cardMaxElevation = 5;
-        /**
-          <p>
-          @attr description
-           Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardPreventCornerOverlap
-        */
-        public static final int CardView_cardPreventCornerOverlap = 7;
-        /**
-          <p>
-          @attr description
-           Add padding in API v21+ as well to have the same measurements with previous versions. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:cardUseCompatPadding
-        */
-        public static final int CardView_cardUseCompatPadding = 6;
-        /**
-          <p>
-          @attr description
-           Inner padding between the edges of the Card and children of the CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:contentPadding
-        */
-        public static final int CardView_contentPadding = 8;
-        /**
-          <p>
-          @attr description
-           Inner padding between the bottom edge of the Card and children of the CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:contentPaddingBottom
-        */
-        public static final int CardView_contentPaddingBottom = 12;
-        /**
-          <p>
-          @attr description
-           Inner padding between the left edge of the Card and children of the CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:contentPaddingLeft
-        */
-        public static final int CardView_contentPaddingLeft = 9;
-        /**
-          <p>
-          @attr description
-           Inner padding between the right edge of the Card and children of the CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:contentPaddingRight
-        */
-        public static final int CardView_contentPaddingRight = 10;
-        /**
-          <p>
-          @attr description
-           Inner padding between the top edge of the Card and children of the CardView. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:contentPaddingTop
-        */
-        public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
            <p>Includes the following attributes:</p>
            <table>
@@ -5053,7 +4875,7 @@ containing a value of this type.
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
          */
         public static final int[] CollapsingAppBarLayout_LayoutParams = {
-            0x7f01011b, 0x7f01011c
+            0x7f010126, 0x7f010127
         };
         /**
           <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_collapseMode}
@@ -5133,10 +4955,10 @@ containing a value of this type.
            @see #CollapsingToolbarLayout_toolbarId
          */
         public static final int[] CollapsingToolbarLayout = {
-            0x7f010000, 0x7f01010e, 0x7f01010f, 0x7f010110,
-            0x7f010111, 0x7f010112, 0x7f010113, 0x7f010114,
-            0x7f010115, 0x7f010116, 0x7f010117, 0x7f010118,
-            0x7f010119, 0x7f01011a
+            0x7f010000, 0x7f010119, 0x7f01011a, 0x7f01011b,
+            0x7f01011c, 0x7f01011d, 0x7f01011e, 0x7f01011f,
+            0x7f010120, 0x7f010121, 0x7f010122, 0x7f010123,
+            0x7f010124, 0x7f010125
         };
         /**
           <p>
@@ -5462,6 +5284,507 @@ containing a value of this type.
           @attr name com.example.android.architecture.blueprints.todoapp:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
+        /** Attributes that can be used with a ConstraintLayout_Layout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_android_orientation android:orientation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.android.architecture.blueprints.todoapp:layout_constraintBaseline_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.android.architecture.blueprints.todoapp:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.android.architecture.blueprints.todoapp:layout_constraintDimensionRatio}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.android.architecture.blueprints.todoapp:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.android.architecture.blueprints.todoapp:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_begin}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_end}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_percent}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.android.architecture.blueprints.todoapp:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.android.architecture.blueprints.todoapp:layout_constraintRight_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.android.architecture.blueprints.todoapp:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.android.architecture.blueprints.todoapp:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.android.architecture.blueprints.todoapp:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.android.architecture.blueprints.todoapp:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.android.architecture.blueprints.todoapp:layout_constraintTop_creator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.android.architecture.blueprints.todoapp:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.android.architecture.blueprints.todoapp:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.android.architecture.blueprints.todoapp:layout_constraintVertical_bias}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.android.architecture.blueprints.todoapp:layout_editor_absoluteX}</code></td><td></td></tr>
+           <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.android.architecture.blueprints.todoapp:layout_editor_absoluteY}</code></td><td></td></tr>
+           </table>
+           @see #ConstraintLayout_Layout_android_orientation
+           @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
+           @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
+           @see #ConstraintLayout_Layout_layout_constraintBottom_creator
+           @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
+           @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+           @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
+           @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
+           @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
+           @see #ConstraintLayout_Layout_layout_constraintGuide_begin
+           @see #ConstraintLayout_Layout_layout_constraintGuide_end
+           @see #ConstraintLayout_Layout_layout_constraintGuide_percent
+           @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
+           @see #ConstraintLayout_Layout_layout_constraintLeft_creator
+           @see #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf
+           @see #ConstraintLayout_Layout_layout_constraintLeft_toRightOf
+           @see #ConstraintLayout_Layout_layout_constraintRight_creator
+           @see #ConstraintLayout_Layout_layout_constraintRight_toLeftOf
+           @see #ConstraintLayout_Layout_layout_constraintRight_toRightOf
+           @see #ConstraintLayout_Layout_layout_constraintStart_toEndOf
+           @see #ConstraintLayout_Layout_layout_constraintStart_toStartOf
+           @see #ConstraintLayout_Layout_layout_constraintTop_creator
+           @see #ConstraintLayout_Layout_layout_constraintTop_toBottomOf
+           @see #ConstraintLayout_Layout_layout_constraintTop_toTopOf
+           @see #ConstraintLayout_Layout_layout_constraintVertical_bias
+           @see #ConstraintLayout_Layout_layout_editor_absoluteX
+           @see #ConstraintLayout_Layout_layout_editor_absoluteY
+         */
+        public static final int[] ConstraintLayout_Layout = {
+            0x010100c4, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
+            0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4,
+            0x7f0100d5, 0x7f0100d6, 0x7f0100d7, 0x7f0100d8,
+            0x7f0100d9, 0x7f0100da, 0x7f0100db, 0x7f0100dc,
+            0x7f0100dd, 0x7f0100de, 0x7f0100df, 0x7f0100e0,
+            0x7f0100e1, 0x7f0100e2, 0x7f0100e3, 0x7f0100e4,
+            0x7f0100e5, 0x7f0100e6, 0x7f0100e7
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+          @attr name android:orientation
+        */
+        public static final int ConstraintLayout_Layout_android_orientation = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintBaseline_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintBaseline_creator
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator = 23;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintBaseline_toBaselineOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintBaseline_toBaselineOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf = 12;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintBottom_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_creator
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_creator = 22;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintBottom_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_toBottomOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf = 11;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintBottom_toTopOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintBottom_toTopOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf = 10;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintDimensionRatio}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintDimensionRatio
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio = 24;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintEnd_toEndOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintEnd_toEndOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf = 16;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintEnd_toStartOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintEnd_toStartOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf = 15;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintGuide_begin}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_begin
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_begin = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintGuide_end}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_end
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_end = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintGuide_percent}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintGuide_percent
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintGuide_percent = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintHorizontal_bias}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintHorizontal_bias
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias = 17;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintLeft_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_creator
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_creator = 19;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintLeft_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_toLeftOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintLeft_toRightOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintLeft_toRightOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintRight_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintRight_creator
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintRight_creator = 21;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintRight_toLeftOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintRight_toLeftOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintRight_toRightOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintRight_toRightOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf = 7;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintStart_toEndOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintStart_toEndOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf = 13;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintStart_toStartOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintStart_toStartOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf = 14;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintTop_creator}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintTop_creator
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintTop_creator = 20;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintTop_toBottomOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintTop_toBottomOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf = 9;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintTop_toTopOf}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>parent</code></td><td>0</td><td></td></tr>
+</table>
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintTop_toTopOf
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf = 8;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_constraintVertical_bias}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_constraintVertical_bias
+        */
+        public static final int ConstraintLayout_Layout_layout_constraintVertical_bias = 18;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_editor_absoluteX}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_editor_absoluteX
+        */
+        public static final int ConstraintLayout_Layout_layout_editor_absoluteX = 25;
+        /**
+          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#layout_editor_absoluteY}
+          attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.android.architecture.blueprints.todoapp:layout_editor_absoluteY
+        */
+        public static final int ConstraintLayout_Layout_layout_editor_absoluteY = 26;
         /** Attributes that can be used with a CoordinatorLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -5476,7 +5799,7 @@ containing a value of this type.
            @see #CoordinatorLayout_statusBarBackground
          */
         public static final int[] CoordinatorLayout = {
-            0x7f0100fa, 0x7f0100fb
+            0x7f010105, 0x7f010106
         };
         /**
           <p>
@@ -5527,8 +5850,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #CoordinatorLayout_LayoutParams_layout_keyline
          */
         public static final int[] CoordinatorLayout_LayoutParams = {
-            0x010100b3, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe,
-            0x7f0100ff
+            0x010100b3, 0x7f010107, 0x7f010108, 0x7f010109,
+            0x7f01010a
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -5636,7 +5959,7 @@ containing a value of this type.
            @see #DesignTheme_textColorError
          */
         public static final int[] DesignTheme = {
-            0x7f01011f, 0x7f010120, 0x7f010121
+            0x7f01012a, 0x7f01012b, 0x7f01012c
         };
         /**
           <p>
@@ -5873,8 +6196,8 @@ containing a value of this type.
            @see #FloatingActionButton_useCompatPadding
          */
         public static final int[] FloatingActionButton = {
-            0x7f010085, 0x7f01008b, 0x7f01008c, 0x7f0100dd,
-            0x7f0100de, 0x7f0100df, 0x7f0100e0, 0x7f0100e1
+            0x7f010085, 0x7f01008b, 0x7f01008c, 0x7f0100e8,
+            0x7f0100e9, 0x7f0100ea, 0x7f0100eb, 0x7f0100ec
         };
         /**
           <p>
@@ -6040,7 +6363,7 @@ containing a value of this type.
            @see #ForegroundLinearLayout_foregroundInsidePadding
          */
         public static final int[] ForegroundLinearLayout = {
-            0x01010109, 0x01010200, 0x7f0100e9
+            0x01010109, 0x01010200, 0x7f0100f4
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -6068,6 +6391,25 @@ containing a value of this type.
           @attr name com.example.android.architecture.blueprints.todoapp:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
+        /** Attributes that can be used with a LinearConstraintLayout.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #LinearConstraintLayout_android_orientation android:orientation}</code></td><td></td></tr>
+           </table>
+           @see #LinearConstraintLayout_android_orientation
+         */
+        public static final int[] LinearConstraintLayout = {
+            0x010100c4
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#orientation}
+          attribute's value can be found in the {@link #LinearConstraintLayout} array.
+          @attr name android:orientation
+        */
+        public static final int LinearConstraintLayout_android_orientation = 0;
         /** Attributes that can be used with a LinearLayoutCompat.
            <p>Includes the following attributes:</p>
            <table>
@@ -6777,8 +7119,8 @@ containing a value of this type.
          */
         public static final int[] NavigationView = {
             0x010100d4, 0x010100dd, 0x0101011f, 0x7f010085,
-            0x7f0100e3, 0x7f0100e4, 0x7f0100e5, 0x7f0100e6,
-            0x7f0100e7, 0x7f0100e8
+            0x7f0100ee, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1,
+            0x7f0100f2, 0x7f0100f3
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -6956,100 +7298,6 @@ containing a value of this type.
           @attr name com.example.android.architecture.blueprints.todoapp:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
-        /** Attributes that can be used with a RecyclerView.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager com.example.android.architecture.blueprints.todoapp:layoutManager}</code></td><td> Class name of the Layout Manager to be used.</td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout com.example.android.architecture.blueprints.todoapp:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount com.example.android.architecture.blueprints.todoapp:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.android.architecture.blueprints.todoapp:stackFromEnd}</code></td><td></td></tr>
-           </table>
-           @see #RecyclerView_android_orientation
-           @see #RecyclerView_layoutManager
-           @see #RecyclerView_reverseLayout
-           @see #RecyclerView_spanCount
-           @see #RecyclerView_stackFromEnd
-         */
-        public static final int[] RecyclerView = {
-            0x010100c4, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0,
-            0x7f0100d1
-        };
-        /**
-          <p>This symbol is the offset where the {@link android.R.attr#orientation}
-          attribute's value can be found in the {@link #RecyclerView} array.
-          @attr name android:orientation
-        */
-        public static final int RecyclerView_android_orientation = 0;
-        /**
-          <p>
-          @attr description
-           Class name of the Layout Manager to be used.
-        <p/>
-        The class must extend android.support.v7.widget.RecyclerView$LayoutManager
-        and have either a default constructor or constructor with the signature
-        (android.content.Context, android.util.AttributeSet, int, int).
-         <p/>
-         If the name starts with a '.', application package is prefixed.
-         Else, if the name contains a '.', the classname is assumed to be a full class name.
-         Else, the recycler view package name (android.support.v7.widget) is prefixed. 
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.android.architecture.blueprints.todoapp:layoutManager
-        */
-        public static final int RecyclerView_layoutManager = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#reverseLayout}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.android.architecture.blueprints.todoapp:reverseLayout
-        */
-        public static final int RecyclerView_reverseLayout = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#spanCount}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.android.architecture.blueprints.todoapp:spanCount
-        */
-        public static final int RecyclerView_spanCount = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#stackFromEnd}
-          attribute's value can be found in the {@link #RecyclerView} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.android.architecture.blueprints.todoapp:stackFromEnd
-        */
-        public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -7061,7 +7309,7 @@ containing a value of this type.
            @see #ScrimInsetsFrameLayout_insetForeground
          */
         public static final int[] ScrimInsetsFrameLayout = {
-            0x7f0100e2
+            0x7f0100ed
         };
         /**
           <p>This symbol is the offset where the {@link com.example.android.architecture.blueprints.todoapp.R.attr#insetForeground}
@@ -7086,7 +7334,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
         public static final int[] ScrollingViewBehavior_Params = {
-            0x7f01010d
+            0x7f010118
         };
         /**
           <p>
@@ -7374,7 +7622,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #SnackbarLayout_maxActionInlineWidth
          */
         public static final int[] SnackbarLayout = {
-            0x0101011f, 0x7f010085, 0x7f010109
+            0x0101011f, 0x7f010085, 0x7f010114
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -7729,10 +7977,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TabLayout_tabTextColor
          */
         public static final int[] TabLayout = {
-            0x7f0100ea, 0x7f0100eb, 0x7f0100ec, 0x7f0100ed,
-            0x7f0100ee, 0x7f0100ef, 0x7f0100f0, 0x7f0100f1,
-            0x7f0100f2, 0x7f0100f3, 0x7f0100f4, 0x7f0100f5,
-            0x7f0100f6, 0x7f0100f7, 0x7f0100f8, 0x7f0100f9
+            0x7f0100f5, 0x7f0100f6, 0x7f0100f7, 0x7f0100f8,
+            0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc,
+            0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100,
+            0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104
         };
         /**
           <p>
@@ -8132,9 +8380,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #TextInputLayout_hintTextAppearance
          */
         public static final int[] TextInputLayout = {
-            0x0101009a, 0x01010150, 0x7f010100, 0x7f010101,
-            0x7f010102, 0x7f010103, 0x7f010104, 0x7f010105,
-            0x7f010106, 0x7f010107, 0x7f010108
+            0x0101009a, 0x01010150, 0x7f01010b, 0x7f01010c,
+            0x7f01010d, 0x7f01010e, 0x7f01010f, 0x7f010110,
+            0x7f010111, 0x7f010112, 0x7f010113
         };
         /**
           <p>
